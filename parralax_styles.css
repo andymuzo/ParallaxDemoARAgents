@@ -1,0 +1,53 @@
+.logo_box {
+	position: relative;
+	height: 600px;
+	background-image: url("purple_books.jpg");
+	background-size: contain;
+	background-position: top center;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.fgImage {
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	background-image: url("agency_logo_wide.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 30%;
+	margin-top: -35px;
+}
+
+.butterfly1 {
+	position: absolute;
+	height: 150px;
+	width: 100%;
+	background-image: url("butterfly2blur.png");
+	background-size: contain;
+	background-position: left top;
+	background-repeat: no-repeat;
+	left: 20%;
+	top: 20%;
+	margin-top: -20px;
+}
+
+.butterfly2 {
+	position: absolute;
+	height: 400px;
+	width: 100%;
+	background-image: url("butterfly4blur.png");
+	background-size: contain;
+	background-position: right top;
+	background-repeat: no-repeat;
+	right: 10%;
+	top: 90%;
+}
+
+.main_text {
+	height: 2000px;
+	width: 600px;
+	margin: 50px;
+	position: center;
+}
